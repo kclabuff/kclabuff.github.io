@@ -1,4 +1,5 @@
 /*!
+ * Updated by Kelly LaBuff - Pulled from...
  * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -31,7 +32,7 @@ body {
 .header h2{
     margin: 0;
     padding: 0;
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: 700;
 }
 
