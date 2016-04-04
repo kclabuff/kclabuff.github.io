@@ -22,36 +22,24 @@ body {
     text-align: center;
     vertical-align: middle ;
 }
-.header h1{
-    margin: 0;
-    padding: 0;
-    font-size: 8em;
-    font-weight: 700;
-}
 
-.header h2{
-    margin: 0;
-    padding: 0;
-    font-size: 2em;
-    font-weight: 700;
-}
 
 .bold { font-weight: bold; }
 .hpink { color: #FF00C4; }
 
-/*!.text-vertical-center h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 8em;
-    font-weight: 700;
-}
-.text-vertical-center h2 {
+.text-vertical-center h1 {
     margin: 0;
     padding: 0;
     font-size: 5em;
     font-weight: 700;
 }
-*/
+.text-vertical-center h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
 
 
 /* Custom Button Styles */
