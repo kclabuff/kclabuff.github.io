@@ -23,6 +23,12 @@ body {
     vertical-align: middle ;
 }
 
+.text-bottom-left{
+    display: table-cell;
+    text-align: left;
+    vertical-align: bottom ;
+}
+
 
 .bold { font-weight: bold; }
 .hpink { color: #FF00C4; }
@@ -30,7 +36,7 @@ body {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 5em;
+    font-size: 6em;
     font-weight: 700;
 }
 .text-vertical-center h2 {
