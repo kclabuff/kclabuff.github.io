@@ -202,6 +202,7 @@ hr.small {
 
 .callout {
     display: table;
+    position: relative;
     width: 100%;
     height: 400px;
     color: #FFF;
@@ -210,8 +211,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-     margin-right: auto;
-     margin-left: auto;
+
 
 }
 
