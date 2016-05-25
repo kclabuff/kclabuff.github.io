@@ -1,533 +1,598 @@
 
-            <!DOCTYPE html>
-            <!-- Adapted Bootstrap portfolio by Kelly LaBuff, kclabuff@gmail.com-->
-            <html lang="en">
+                <!DOCTYPE html>
+                <!-- Adapted Bootstrap portfolio by Kelly LaBuff, kclabuff@gmail.com-->
+                <html lang="en">
 
-            <head>
+                <head>
 
-                <meta charset="utf-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <meta name="description" content="Simple Scroll Portfolio">
-                <meta name="author" content="Bootstrap theme, customized by Kelly LaBuff">
+                    <meta charset="utf-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <meta name="description" content="Simple Scroll Portfolio">
+                    <meta name="author" content="Bootstrap theme, customized by Kelly LaBuff">
 
-                <title>Kelly LaBuff</title>
+                    <title>Kelly LaBuff</title>
 
-                <!-- Bootstrap Core CSS -->
-                <link rel="shortcut icon" type="image/x-icon" href="Logo_KL_5.png" />
+                    <!-- Bootstrap Core CSS -->
+                    <link rel="shortcut icon" type="image/x-icon" href="Logo_KL_5.png" />
 
-                <!-- Bootstrap Core CSS -->
-                <link href="css/bootstrap.min.css" rel="stylesheet">
+                    <!-- Bootstrap Core CSS -->
+                    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-                <!-- Custom CSS -->
-                <link href="css/klabportfolio.css" rel="stylesheet">
+                    <!-- Custom CSS -->
+                    <link href="css/klabportfolio.css" rel="stylesheet">
 
-                <!-- Custom Fonts -->
-                <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-                <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+                    <!-- Custom Fonts -->
+                    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+                    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-            </head>
+                </head>
 
-            <body>
+                <body>
 
-                <!-- Navigation -->
-                <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-                <nav id="sidebar-wrapper">
-                    <ul class="sidebar-nav">
-                        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-                        <li class="sidebar-brand">
-                            <a href="#top"  onclick = $("#menu-close").click(); >Kelly LaBuff</a>
-                        </li>
-                        <li>
-                            <a href="#about" onclick = $("#menu-close").click(); >About Me</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio" onclick = $("#menu-close").click(); >Work</a>
-                        </li>
+                    <!-- Navigation -->
+                    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+                    <nav id="sidebar-wrapper">
+                        <ul class="sidebar-nav">
+                            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                            <li class="sidebar-brand">
+                                <a href="#top"  onclick = $("#menu-close").click(); >Kelly LaBuff</a>
+                            </li>
+                            <li>
+                                <a href="#about" onclick = $("#menu-close").click(); >About Me</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio" onclick = $("#menu-close").click(); >Work</a>
+                            </li>
 
-                    </ul>
-                </nav>
+                        </ul>
+                    </nav>
 
-                <!-- Header -->
-                <header id="top" class="header">
-                    <div class="text-vertical-center">
-                        <h1> <span class = "hpink">K</span>elly <span class = "hpink">LaB</span>uff</h1>
-                </header >
-        
+                    <!-- Header -->
+                    <header id="top" class="header">
+                        <div class="text-vertical-center">
+                            <h1> <span class = "hpink">K</span>elly <span class = "hpink">LaB</span>uff</h1>
+                    </header >
+            
 
-        <!-- Portfolio -->
-        <section id="about" class="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <h1><strong>About Me</strong></h1>
-                        <h1> Designer / Engineer / Project Manager </h1>
-                            <h3><span class = "hpink"><strong>Design, UX, and applications of innovative technology for impact</strong></span></h3>
-                                 <div class="portfolio-item">
-                                                <img class="img-portfolio img-responsive" src="img/Kelly_1.jpeg">
-                                        </div>
-
-                            <hr class="small">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                                <img class="img-portfolio img-responsive" src="img/MetalRose.jpg">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5">
-                                        <div class="portfolio-item">
-                                           
-                                                <img class="img-portfolio img-responsive" src="img/deskshelf1.jpg">
-                                      
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5">
-                                        <div class="portfolio-item">
-                                            
-                                                <img class="img-portfolio img-responsive" src="img/Welding.jpg">
-                                    
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!-- /.row (nested) -->
-
-                </section>
-
-                <!-- Skills-->
-                
-                <section id="skills" class="skills bg-primary">
-                    <div class="container">
-                        <div class="row text-center">
-                            <div class="col-lg-20 text-center">
-                                <h2><strong>Skills</strong></h2>
-                                <hr class="small">
-                                <div class="row">
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="skills-item">
-                                            <span class="fa-stack fa-4x">
-                                                <i class="fa fa-circle fa-stack-2x"></i>
-                                                <i class="fa fa-rocket fa-stack-1x text-primary"></i>
-                                            </span>
-                                            <h4>
-                                                <strong>Design</strong>
-                                            </h4>
-                                            <p>Design Thinking, UI/UX, Product Design, Use Case Development, Storyboard Creation</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="skills-item">
-                                            <span class="fa-stack fa-4x">
-                                                <i class="fa fa-circle fa-stack-2x"></i>
-                                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                                            </span>
-                                            <h4>
-                                                <strong>Project Management</strong>
-                                            </h4>
-                                            <p>Excellent Communication, Team Management, Strategic Thinking, Business Enablement</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="skills-item">
-                                            <span class="fa-stack fa-4x">
-                                                <i class="fa fa-circle fa-stack-2x"></i>
-                                                <i class="fa fa-bar-chart fa-stack-1x text-primary"></i>
-                                            </span>
-                                            <h4>
-                                                <strong>Analysis</strong>
-                                            </h4>
-                                            <p>Financial Modeling, Data Analysis, Business Process Design</p>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">
-                                        <div class="skills-item">
-                                            <span class="fa-stack fa-4x">
-                                                <i class="fa fa-circle fa-stack-2x"></i>
-                                                <i class="fa fa-cog fa-stack-1x text-primary"></i>
-                                            </span>
-                                            <h4>
-                                                <strong>Engineering</strong>
-                                            </h4>
-                                            <p>Manufacturing, CAD Modeling &amp Analysis, Rapid Hardware &amp Software Prototyping</p>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.row (nested) -->
-                            </div>
-                            <!-- /.col-lg-10 -->
-                        </div>
-                        <!-- /.row -->
-                    </div>
-                    <!-- /.container -->
-                </section>
-
-                <!-- Portfolio -->
-                <section id="portfolio" class="portfolio">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-10 col-lg-offset-1 text-center">
-                                <h1><strong>Work &amp Projects</strong></h1>
-                                <h2> <span class = "hpink"> <strong> Current &amp Past Explorations </strong> </span></h2>
-
-                              </div>
-                              <img class="img-portfolio img-responsive" src="img/desk3.jpg">
-                              </div>
-                              </div>
-                              </section>
-
-                      <section id="skills" class="skills bg-primary">
-                    <div class="container">
-                     <div class="row text-center">
-                            <div class="col-lg-20 text-center">
-                                 <h2>Accenture Tech labs - Data Insights</h2>
-                                  </div>
-                                    </div>
-
-                    </div>
-                </section>
-
-                                <section id="portfolio" class="portfolio">
-                    <div class="container">
-                              
-                                <hr class="small">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                            <h2> <strong>VR Analytics &amp VR Data Visualization</strong></h2>
-                                            <h3> </i> <strong> The Challenge: </strong></h3>
-                                            <h3> How might we track interactions and engagement in a virtual environment?</h3>
-                                            <h3> How might we record and visualize this data in VR or on a 2D screen?</h3>
-                                            <h3> How could we apply web data visualizations </h3>
-                                            <h3> How could we apply storytelling methodologies in VR to show data? </h3>
-                                            <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
-                                            <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
-                                            <h3> <i class="fa fa-cog"></i> Impact: </h3>   
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                                 <img class="img-portfolio img-responsive" src="img/Sketch1.png">
-                                                 <img class="img-portfolio img-responsive" src="img/Sketch2.png">
-                                                <img class="img-portfolio img-responsive" src="img/Trail Map.png">
-                                                <img class="img-portfolio img-responsive" src="img/Trail Map 3.png">
-                                                <img class="img-portfolio img-responsive" src="img/Trail Map 4.png">
-                                         
-                                        </div>
-                                    </div>
-
-                                </div>
+            <!-- Portfolio -->
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1 text-center">
+                            <h1><strong>About Me</strong></h1>
+                            <h1> Designer / Engineer / Project Manager </h1>
+                                <h3><span class = "hpink"><strong>Design, UX, and applications of innovative technology for impact</strong></span></h3>
+                                     <div class="portfolio-item">
+                                                    <img class="img-portfolio img-responsive" src="img/Kelly_1.jpeg">
+                                            </div>
 
                                 <hr class="small">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                            <h2>VR UX - Audio Feedback Prototype</h2>
-                                            <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
-                                            <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
-                                            <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
-                                            <h3> <i class="fa fa-cog"></i> Impact: </h3>   
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                    <img class="img-portfolio img-responsive" src="img/MetalRose.jpg">
+                                            </div>
                                         </div>
-                                    </div>
-                                     <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                             <img class="img-portfolio img-responsive" src="img/AudioSketch.png">
-                                                 <img class="img-portfolio img-responsive" src="img/Audio Insight.png">
+                                        <div class="col-md-5">
+                                            <div class="portfolio-item">
+                                               
+                                                    <img class="img-portfolio img-responsive" src="img/deskshelf1.jpg">
+                                          
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-
-                                 <hr class="small">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                            <h2>VR &amp Front End - Nonprofit 360 Video UX Data Analytics</h2>
-                                            <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
-                                            <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
-                                            <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
-                                            <h3> <i class="fa fa-cog"></i> Impact: </h3>     
-                                        </div>
-                                    </div>
-                                     <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                             <img class="img-portfolio img-responsive" src="img/ShrinkRay1.png">
-                                             <img class="img-portfolio img-responsive" src="img/ShrinkRay2.png">
-                                             <img class="img-portfolio img-responsive" src="img/ShrinkRay3.png">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <hr class="small">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                            <h2>VR &amp Web Rapid Prototyping</h2>
-                                            <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
-                                            <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
-                                            <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
-                                            <h3> <i class="fa fa-cog"></i> Impact: </h3>    
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                                 <img class="img-portfolio img-responsive" src="img/Boxes1.png">
-                                                 <img class="img-portfolio img-responsive" src="img/Boxes2.png">
-                                        </div>
-                                    </div>
-
-                                </div>
-
-
-                                <hr class="small">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                            <h2>"Aardy" the Aardvark - 3D Mesh &amp 3D Printing</h2>
-                                            <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
-                                            <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
-                                            <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
-                                            <h3> <i class="fa fa-cog"></i> Impact: </h3>      
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                                 <img class="img-portfolio img-responsive" src="img/AardyIso.png">
-                                                 <img class="img-portfolio img-responsive" src="img/AardyPrint.jpg">
-                                                 <img class="img-portfolio img-responsive" src="img/AardySeries.jpg">   
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <hr class="small">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                            <h2> "Phone Hook" Shopping Cart Mount - 3D Mesh &amp 3D Printing</h2>
-                                            <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
-                                            <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
-                                            <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
-                                            <h3> <i class="fa fa-cog"></i> Impact: </h3>      
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                                 <img class="img-portfolio img-responsive" src="img/Phone Holder 1.jpg">
-                                                 <img class="img-portfolio img-responsive" src="img/PH 2.jpeg">
-                                                 <img class="img-portfolio img-responsive" src="img/PH4.jpeg">       
-                                        </div>
-                                    </div>
-                                </div>
-
-      </div>
-    </section>
-                             <section id="skills" class="skills bg-primary">
-                    <div class="container">
-                     <div class="row text-center">
-                            <div class="col-lg-20 text-center">
-                                <h2>SuperSemoir - Stanford GSB Design for Extreme Affordability</h2>
-                                  </div>
-                                    </div>
-
-                    </div>
-                </section>
-
-
-    <section id="portfolio" class="portfolio">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-15  text-center">
-                   
-                                  <img class="img-portfolio img-responsive" src="img/MicrodosingField.png">
-                            </div>
-                        </div>
-                              
-                                <hr class="small">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                            <h2>Semoir Product Development</h2>
-                                            <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
-                                            <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
-                                            <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
-                                            <h3> <i class="fa fa-cog"></i> Impact: </h3>     
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                                 <img class="img-portfolio img-responsive" src="img/Microdosing.png">
-                                                <img class="img-portfolio img-responsive" src="img/FurrowCoversDiagram.png">
-                                                <img class="img-portfolio img-responsive" src="img/SemoirFurrowCutters.png">
-                                                <img class="img-portfolio img-responsive" src="img/Kelly final semoir.jpg">
-                                                <img class="img-portfolio img-responsive" src="img/SS_P1.png">
-                                                <img class="img-portfolio img-responsive" src="img/SS_F3.png">
-                                                <img class="img-portfolio img-responsive" src="img/SS_F2.jpg">
+                                        <div class="col-md-5">
+                                            <div class="portfolio-item">
                                                 
+                                                    <img class="img-portfolio img-responsive" src="img/Welding.jpg">
+                                        
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- /.row (nested) -->
+
+                    </section>
+
+                    <!-- Skills-->
+                    
+                    <section id="skills" class="skills bg-primary">
+                        <div class="container">
+                            <div class="row text-center">
+                                <div class="col-lg-20 text-center">
+                                    <h2><strong>Skills</strong></h2>
+                                    <hr class="small">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="skills-item">
+                                                <span class="fa-stack fa-4x">
+                                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                                    <i class="fa fa-rocket fa-stack-1x text-primary"></i>
+                                                </span>
+                                                <h4>
+                                                    <strong>Design</strong>
+                                                </h4>
+                                                <p>Design Thinking, UI/UX, Product Design, Use Case Development, Storyboard Creation</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="skills-item">
+                                                <span class="fa-stack fa-4x">
+                                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                                    <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                                                </span>
+                                                <h4>
+                                                    <strong>Project Management</strong>
+                                                </h4>
+                                                <p>Excellent Communication, Team Management, Strategic Thinking, Business Enablement</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="skills-item">
+                                                <span class="fa-stack fa-4x">
+                                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                                    <i class="fa fa-bar-chart fa-stack-1x text-primary"></i>
+                                                </span>
+                                                <h4>
+                                                    <strong>Analysis</strong>
+                                                </h4>
+                                                <p>Financial Modeling, Data Analysis, Business Process Design</p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="skills-item">
+                                                <span class="fa-stack fa-4x">
+                                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                                    <i class="fa fa-cog fa-stack-1x text-primary"></i>
+                                                </span>
+                                                <h4>
+                                                    <strong>Engineering</strong>
+                                                </h4>
+                                                <p>Manufacturing, CAD Modeling &amp Analysis, Rapid Hardware &amp Software Prototyping</p>
+                                                
+                                            </div>
                                         </div>
                                     </div>
-
+                                    <!-- /.row (nested) -->
                                 </div>
-
- </div>
-    </section>
-   <section id="skills" class="skills bg-primary">
-                    <div class="container">
-                     <div class="row text-center">
-                            <div class="col-lg-20 text-center">
-                                <h2>Red Bull Flugtag - SF 2012</h2>
-                                  </div>
-                                    </div>
-
-                    </div>
-                </section>
-
- <section id="portfolio" class="portfolio">
-                    <div class="container">
-                    <div class="row">
-                            <div class="col-lg-10 col-lg-offset-1 text-center">
-                                  <img class="img-portfolio img-responsive" src="img/FlugtagRamp.jpg">
+                                <!-- /.col-lg-10 -->
                             </div>
+                            <!-- /.row -->
                         </div>
-                              
-                                <hr class="small">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                            <h2>"Flying Machine" Product Development</h2>
-                                            <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
-                                            <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
-                                            <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
-                                            <h3> <i class="fa fa-cog"></i> Impact: </h3>      
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                                 <img class="img-portfolio img-responsive" src="img/FlugDesign2.png">
-                                                 <img class="img-portfolio img-responsive" src="img/FlugDesign1.png">
-                                                 <img class="img-portfolio img-responsive" src="img/FlugtagWing.jpg">
-                                                <img class="img-portfolio img-responsive" src="img/Flugtag3.jpg">
-                                                <img class="img-portfolio img-responsive" src="img/Flugtag2.jpg">
-                                                <img class="img-portfolio img-responsive" src="img/Flugtag.jpg">
-                                         
-                                        </div>
-                                    </div>
+                        <!-- /.container -->
+                    </section>
 
-                                </div>
-                       </div>
-                            <!-- container -->
-                 
-                </section>
+                    <!-- Portfolio -->
+                    <section id="portfolio" class="portfolio">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 col-lg-offset-1 text-center">
+                                    <h1><strong>Work &amp Projects</strong></h1>
+                                    <h2> <span class = "hpink"> <strong> Current &amp Past Explorations </strong> </span></h2>
 
-
-</div>
-    </section>
-   <section id="skills" class="skills bg-primary">
-                    <div class="container">
-                     <div class="row text-center">
-                            <div class="col-lg-20 text-center">
-                                <h2> Stanford Engineering - "Duckbot" </h2>
                                   </div>
-                                    </div>
+                                  <img class="img-portfolio img-responsive" src="img/desk3.jpg">
+                                  </div>
+                                  </div>
+                                  </section>
 
-                    </div>
-                </section>
-                
- <section id="portfolio" class="portfolio">
-                    <div class="container">
-                    <div class="row">
-                            <div class="col-lg-10 col-lg-offset-1 text-center">
-                                  <img class="img-portfolio img-responsive" src="img/duckbot.jpg">
-                            </div>
+                          <section id="skills" class="skills bg-primary">
+                        <div class="container">
+                         <div class="row text-center">
+                                <div class="col-lg-20 text-center">
+                                     <h2>Accenture Tech labs - Data Insights</h2>
+                                      </div>
+                                        </div>
+
                         </div>
-                              
-                                <hr class="small">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                            <h2>"Duckbot" Product Development</h2>
-                                            <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
-                                            <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
-                                            <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
-                                            <h3> <i class="fa fa-cog"></i> Impact: </h3>     
+                    </section>
+
+                                    <section id="portfolio" class="portfolio">
+                        <div class="container">
+                                  
+                                    <hr class="small">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                             
+                                                <h2> <strong>VR Analytics &amp VR Data Visualization</strong></h2>
+                                                <h3> </i> <strong> The Challenge: </strong></h3>
+                                                <h3> Develop the foundation for VR user analytics </h3>
+                                                <h3> Design how to visualize analytics data in VR for a CPG use case</h3>
+                                                <h3> How might we track interactions and engagement in a virtual environment?</h3>
+                                                <h3> How might we record and visualize this data in VR or on a 2D screen?</h3>
+                                                <h3> How could we apply storytelling methodologies in VR to show data? </h3>
+                                                <h3> <strong> The Approach: </strong></h3>
+                                                <h3> Show user movement through heatmap trails </h3>
+                                                <h3> Show gaze interactions using product heatmap, and “gaze rays” </h3>
+                                                <h3> Test “audio insights” integration to relay information </h3>
+
+                                                <h3> <strong> Tools: </strong></h3>
+                                                <h3> Rapid iterations &amp Feedback cycles in HTC Vive </h3>
+                                                <h3> Sketching on iPad Pro</h3>
+                                                <h3> Sketching in VR – Google Tiltbrush App</h3>
+                                                <h3> Unity – Game Engine &amp C# Scripting </h3>
+                                                <h3> <strong> Key Learnings: </strong></h3> 
+                                                <h3> Rapid prototyping in VR, for VR </h3>
+                                                <h3> UI/UX experimentation in VR </h3>
+                                                <h3> Integrating real user data in VR </h3>
+
+                                                <h3> <strong></i> Impact: </strong></h3>   
+                                                <h3> Developed foundation for analytics strategy &amp data visualization in VR </h3>
+                                                <h3> Delivered demos for C-Suite clients around CPG sales UX use case </h3>
+
+                                            </div>
                                         </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                     <img class="img-portfolio img-responsive" src="img/Sketch2.png">
+                                                    <img class="img-portfolio img-responsive" src="img/Trail Map 3.png">
+                                                    <img class="img-portfolio img-responsive" src="img/Trail Map 4.png">
+                                             
+                                            </div>
+                                        </div>
+
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="portfolio-item">
-                                                 <img class="img-portfolio img-responsive" src="img/duckbot2.jpg">
-                                         
+
+                                    <hr class="small">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                <h2>VR UX - Audio Feedback Prototype</h2>
+                                                <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
+                                                <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
+                                                <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
+                                                <h3> <i class="fa fa-cog"></i> Impact: </h3>   
+                                            </div>
+                                        </div>
+                                         <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                 <img class="img-portfolio img-responsive" src="img/AudioSketch.png">
+                                                     <img class="img-portfolio img-responsive" src="img/Audio Insight.png">
+                                            </div>
                                         </div>
                                     </div>
 
+                                     <hr class="small">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                <h2>VR &amp Front End - Nonprofit 360 Video UX Data Analytics</h2>
+                                                <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
+                                                <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
+                                                <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
+                                                <h3> <i class="fa fa-cog"></i> Impact: </h3>     
+                                            </div>
+                                        </div>
+                                         <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                 <img class="img-portfolio img-responsive" src="img/ShrinkRay1.png">
+                                                 <img class="img-portfolio img-responsive" src="img/ShrinkRay2.png">
+                                                 <img class="img-portfolio img-responsive" src="img/ShrinkRay3.png">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <hr class="small">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                <h2>VR &amp Web Rapid Prototyping</h2>
+                                                <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
+                                                <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
+                                                <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
+                                                <h3> <i class="fa fa-cog"></i> Impact: </h3>    
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                     <img class="img-portfolio img-responsive" src="img/Boxes1.png">
+                                                     <img class="img-portfolio img-responsive" src="img/Boxes2.png">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <hr class="small">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                <h2>"Aardy" the Aardvark - 3D Mesh &amp 3D Printing</h2>
+                                                <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
+                                                <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
+                                                <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
+                                                <h3> <i class="fa fa-cog"></i> Impact: </h3>      
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                     <img class="img-portfolio img-responsive" src="img/AardyIso.png">
+                                                     <img class="img-portfolio img-responsive" src="img/AardyPrint.jpg">
+                                                     <img class="img-portfolio img-responsive" src="img/AardySeries.jpg">   
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <hr class="small">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                <h2> "Phone Hook" Shopping Cart Mount - 3D Mesh &amp 3D Printing</h2>
+                                                <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
+                                                <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
+                                                <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
+                                                <h3> <i class="fa fa-cog"></i> Impact: </h3>      
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                     <img class="img-portfolio img-responsive" src="img/phonehook0.png">
+                                                     <img class="img-portfolio img-responsive" src="img/Phone Holder 1.jpg">
+                                                     <img class="img-portfolio img-responsive" src="img/PH 2.jpeg">
+                                                     <img class="img-portfolio img-responsive" src="img/PH4.jpeg">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+          </div>
+        </section>
+                                 <section id="skills" class="skills bg-primary">
+                        <div class="container">
+                         <div class="row text-center">
+                                <div class="col-lg-20 text-center">
+                                    <h2>SuperSemoir - Stanford GSB Design for Extreme Affordability</h2>
+                                      </div>
+                                        </div>
+
+                        </div>
+                    </section>
+
+
+        <section id="portfolio" class="portfolio">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-15  text-center">
+                       
+                                      <img class="img-portfolio img-responsive" src="img/MicrodosingField.png">
                                 </div>
-                       </div>
-                            <!-- container -->
-                 
-                </section>
+                            </div>
+                                  
+                                    <hr class="small">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                <h2>Semoir Product Development</h2>
+                                                <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
+                                                <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
+                                                <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
+                                                <h3> <i class="fa fa-cog"></i> Impact: </h3>     
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                     <img class="img-portfolio img-responsive" src="img/Microdosing.png">
+                                                    <img class="img-portfolio img-responsive" src="img/FurrowCoversDiagram.png">
+                                                    <img class="img-portfolio img-responsive" src="img/SemoirFurrowCutters.png">
+                                                    <img class="img-portfolio img-responsive" src="img/Kelly final semoir.jpg">
+                                                    <img class="img-portfolio img-responsive" src="img/SS_P1.png">
+                                                    <img class="img-portfolio img-responsive" src="img/SS_F3.png">
+                                                    <img class="img-portfolio img-responsive" src="img/SS_F2.jpg">
+                                                    
+                                            </div>
+                                        </div>
 
+                                    </div>
 
+     </div>
+        </section>
+       <section id="skills" class="skills bg-primary">
+                        <div class="container">
+                         <div class="row text-center">
+                                <div class="col-lg-20 text-center">
+                                    <h2>Red Bull Flugtag - SF 2012</h2>
+                                      </div>
+                                        </div>
 
-                <!-- Footer -->
-                <footer>
-                    <div class="container">
+                        </div>
+                    </section>
+
+     <section id="portfolio" class="portfolio">
+                        <div class="container">
                         <div class="row">
-                            <div class="col-lg-10 col-lg-offset-1 text-center">
-                                <h4><strong>Kelly LaBuff</strong>
-                                </h4>
-                                <p>San Francisco<br>California</p>
-                                <ul class="list-inline">
-                                    <li>
-                                      <a href="https://www.linkedin.com/in/kellylabuff"><i class="fa fa-linkedin-square fa-fw fa-3x"></i></a>
-                                  </li>
-                                  <li>
-                                      <a href="mailto:kclabuff@gmail.com"><i class="fa fa-envelope-square fa-fw fa-3x"></i></a>
-                                  </li>
-                              </ul>
+                                <div class="col-lg-10 col-lg-offset-1 text-center">
+                                      <img class="img-portfolio img-responsive" src="img/FlugtagRamp.jpg">
+                                </div>
+                            </div>
+                                  
+                                    <hr class="small">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                <h2>"Flying Machine" Product Development</h2>
+                                                <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
+                                                <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
+                                                <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
+                                                <h3> <i class="fa fa-cog"></i> Impact: </h3>      
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                     <img class="img-portfolio img-responsive" src="img/FlugDesign2.png">
+                                                     <img class="img-portfolio img-responsive" src="img/FlugDesign1.png">
+                                                     <img class="img-portfolio img-responsive" src="img/FlugtagWing.jpg">
+                                                    <img class="img-portfolio img-responsive" src="img/Flugtag3.jpg">
+                                                    <img class="img-portfolio img-responsive" src="img/Flugtag2.jpg">
+                                                    <img class="img-portfolio img-responsive" src="img/Flugtag.jpg">
+                                             
+                                            </div>
+                                        </div>
 
+                                    </div>
+                           </div>
+                                <!-- container -->
+                     
+                    </section>
+
+
+    </div>
+        </section>
+       <section id="skills" class="skills bg-primary">
+                        <div class="container">
+                         <div class="row text-center">
+                                <div class="col-lg-20 text-center">
+                                    <h2> Stanford Engineering - "Duckbot" </h2>
+                                      </div>
+                                        </div>
+
+                        </div>
+                    </section>
+                    
+     <section id="portfolio" class="portfolio">
+                        <div class="container">
+                        <div class="row">
+                                <div class="col-lg-10 col-lg-offset-1 text-center">
+                                      <img class="img-portfolio img-responsive" src="img/duckbot.jpg">
+                                </div>
+                            </div>
+                                  
+                                    <hr class="small">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                <h2>"Duckbot" Product Development</h2>
+                                                <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
+                                                <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
+                                                <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
+                                                <h3> <i class="fa fa-cog"></i> Impact: </h3>     
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                     <img class="img-portfolio img-responsive" src="img/duckbot2.jpg">
+                                             
+                                            </div>
+                                        </div>
+
+                                    </div>
+                           </div>
+                                <!-- container -->
+                     
+                    </section>
+
+
+
+    </div>
+        </section>
+       <section id="skills" class="skills bg-primary">
+                        <div class="container">
+                         <div class="row text-center">
+                                <div class="col-lg-20 text-center">
+                                    <h2> Stanford Engineering - "Disco 2.0" </h2>
+                                      </div>
+                                        </div>
+
+                        </div>
+                    </section>
+                    
+     <section id="portfolio" class="portfolio">
+                        <div class="container">
+                        <div class="row">
+                                <div class="col-lg-10 col-lg-offset-1 text-center">
+                                      <img class="img-portfolio img-responsive" src="img/disco1.jpg">
+                                </div>
+                            </div>
+                                  
+                                    <hr class="small">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                <h2>Floating LED Disco Ball - Product Development</h2>
+                                                <h3> <i class="fa fa-cog"></i> The Challenge: </h3>
+                                                <h3> <i class="fa fa-cog "></i> The Approach &amp Methods: </h3>
+                                                <h3> <i class="fa fa-cog"></i> Key Learnings: </h3> 
+                                                <h3> <i class="fa fa-cog"></i> Impact: </h3>     
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="portfolio-item">
+                                                     <img class="img-portfolio img-responsive" src="img/disco3.jpg">
+                                                     <img class="img-portfolio img-responsive" src="img/disco4.jpg">
+                                                     <img class="img-portfolio img-responsive" src="img/disco5.png">
+                                             
+                                            </div>
+                                        </div>
+
+                                    </div>
+                           </div>
+                                <!-- container -->
+                     
+                    </section>
+
+                    <!-- Footer -->
+                    <footer>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 col-lg-offset-1 text-center">
+                                    <h4><strong>Kelly LaBuff</strong>
+                                    </h4>
+                                    <p>San Francisco<br>California</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                          <a href="https://www.linkedin.com/in/kellylabuff"><i class="fa fa-linkedin-square fa-fw fa-3x"></i></a>
+                                      </li>
+                                      <li>
+                                          <a href="mailto:kclabuff@gmail.com"><i class="fa fa-envelope-square fa-fw fa-3x"></i></a>
+                                      </li>
+                                  </ul>
+
+                              </div>
                           </div>
                       </div>
-                  </div>
-              </footer>
+                  </footer>
 
-              <!-- jQuery -->
+                  <!-- jQuery -->
 
-               <!-- jQuery -->
-              <script src="js/jquery.js"></script>
+                   <!-- jQuery -->
+                  <script src="js/jquery.js"></script>
 
-              <!-- Bootstrap Core JavaScript -->
-              <script src="js/bootstrap.min.js"></script>
+                  <!-- Bootstrap Core JavaScript -->
+                  <script src="js/bootstrap.min.js"></script>
 
-              <!-- Custom Theme JavaScript -->
-              <script>
-                // Closes the sidebar menu
-                $("#menu-close").click(function(e) {
-                    e.preventDefault();
-                    $("#sidebar-wrapper").toggleClass("active");
-                });
-
-                // Opens the sidebar menu
-                $("#menu-toggle").click(function(e) {
-                    e.preventDefault();
-                    $("#sidebar-wrapper").toggleClass("active");
-                });
-
-                // Scrolls to the selected menu item on the page
-                $(function() {
-                    $('a[href*=#]:not([href=#])').click(function() {
-                        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                            var target = $(this.hash);
-                            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                            if (target.length) {
-                                $('html,body').animate({
-                                    scrollTop: target.offset().top
-                                }, 1000);
-                                return false;
-                            }
-                        }
+                  <!-- Custom Theme JavaScript -->
+                  <script>
+                    // Closes the sidebar menu
+                    $("#menu-close").click(function(e) {
+                        e.preventDefault();
+                        $("#sidebar-wrapper").toggleClass("active");
                     });
-                });
-                </script>
 
-            </body>
+                    // Opens the sidebar menu
+                    $("#menu-toggle").click(function(e) {
+                        e.preventDefault();
+                        $("#sidebar-wrapper").toggleClass("active");
+                    });
 
-            </html>
+                    // Scrolls to the selected menu item on the page
+                    $(function() {
+                        $('a[href*=#]:not([href=#])').click(function() {
+                            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                                var target = $(this.hash);
+                                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                                if (target.length) {
+                                    $('html,body').animate({
+                                        scrollTop: target.offset().top
+                                    }, 1000);
+                                    return false;
+                                }
+                            }
+                        });
+                    });
+                    </script>
+
+                </body>
+
+                </html>
