@@ -75,10 +75,10 @@
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item px-lg-4">
+                    <li class="nav-item active px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="blog.html">Work</a>
                     </li>
-                    <li class="nav-item active px-lg-4">
+                    <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -89,17 +89,50 @@
     <div class="container">
 
         <div class="bg-faded p-4 my-4">
-            <hr class="divider">
-            <h2 class="text-center text-lg text-uppercase my-0">Contact <strong>Kelly LaBuff</strong></h2>
-            <hr class="divider">
-            <div class="text-center">
-                    <h5 class="mb-0">Email:</h5>
-                    <div class="mb-4 customlinks"><a href="mailto:name@example.com">kclabuff@gmail.com</a></div>
-                    <h5 class="mb-0">Location:</h5>
-                    <div class="mb-4">San Francisco</div>
+            <div class="card card-inverse">
+                <img class="card-img img-fluid w-100" src="img/deskshelf1.jpg" alt="">
+                <div class="card-img-overlay bg-overlay">
+                    <h2 class="card-title text-shadow text-uppercase mb-0">Post Title</h2>
+                    <h4 class="text-shadow text-white">March 1, 2017</h4>
+                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repellat provident quo aliquam eius ea, animi porro magnam totam dolor nam error quas labore eveniet dicta nostrum inventore veniam. Ipsam?</p>
+                    <a href="" class="btn btn-secondary">Read More</a>
+                </div>
             </div>
         </div>
 
+        <div class="bg-faded p-4 my-4">
+            <div class="card card-inverse">
+                <img class="card-img img-fluid w-100" src="img/FlugtagPlane.jpg" alt="">
+                <div class="card-img-overlay bg-overlay">
+                    <h2 class="card-title text-shadow text-uppercase mb-0">Post Title</h2>
+                    <h4 class="text-shadow text-white">March 1, 2017</h4>
+                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repellat provident quo aliquam eius ea, animi porro magnam totam dolor nam error quas labore eveniet dicta nostrum inventore veniam. Ipsam?</p>
+                    <a href="" class="btn btn-secondary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-faded p-4 my-4">
+            <div class="card card-inverse">
+                <img class="card-img img-fluid w-100" src="img/SemoirFurrowCutters.png" alt="">
+                <div class="card-img-overlay bg-overlay">
+                    <h2 class="card-title text-shadow text-uppercase mb-0">Post Title</h2>
+                    <h4 class="text-shadow text-white">March 1, 2017</h4>
+                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repellat provident quo aliquam eius ea, animi porro magnam totam dolor nam error quas labore eveniet dicta nostrum inventore veniam. Ipsam?</p>
+                    <a href="" class="btn btn-secondary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="bg-faded p-4 my-4">
+            <ul class="pagination justify-content-center mb-0">
+                <li class="page-item"><a class="page-link" href="#">&larr; Older</a></li>
+                <li class="page-item disabled"><a class="page-link" href="#">Newer &rarr;</a></li>
+            </ul>
+        </div>
+
+    </div>
     <!-- /.container -->
 
     <footer class="bg-faded text-center py-5">
@@ -179,10 +212,10 @@
 
 
 
-            renderer.render(scene, camera);
-            };
-        render();
-        </script>
+    renderer.render(scene, camera);
+    };
+render();
+</script>
 
 
 </body>
