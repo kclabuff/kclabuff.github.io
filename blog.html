@@ -105,39 +105,10 @@
             <div class="card card-inverse">
                 <img class="card-img img-fluid w-100" src="img/cv_splash.png" alt="">
                 <div class="card-img-overlay bg-overlay">
-                    <h3 class="card-title text-shadow text-uppercase mb-0">Rebranding</h3>
+                    <h3 class="card-title text-shadow text-uppercase mb-0">CareerVillage</h3>
                     <h4 class="text-shadow text-white">2017</h4>
-                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">CareerVillage.org : <br> Rebranding Scale &amp Management</p>
+                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">Product Managment, Rebranding, and Career Goals</p>
                     <a href="" class="btn btn-secondary">Coming soon!</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="bg-faded p-4 my-4">
-            <div class="card card-inverse">
-                <img class="card-img img-fluid w-100" src="img/cv_splash.png" alt="">
-                <div class="card-img-overlay bg-overlay">
-                    <h3 class="card-title text-shadow text-uppercase mb-0">Career Goals</h3>
-                    <h4 class="text-shadow text-white">2017</h4>
-                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">CareerVillage.org : <br> Career Goals, Next Steps, and Tasks</p>
-                    <a href="" class="btn btn-secondary">Coming soon!</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="bg-faded p-4 my-4">
-            <div class="card card-inverse">
-                <img class="card-img img-fluid w-100" src="img/cv_splash.png" alt="">
-                <div class="card-img-overlay bg-overlay">
-                    <h3 class="card-title text-shadow text-uppercase mb-0">Sort &amp Filter</h3>
-                    <h4 class="text-shadow text-white">2017</h4>
-                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">CareerVillage.org : <br> Sort &amp Filter</p>
-                    <a href="" class="btn btn-secondary">Coming soon!</a>
-                    <div></div>
                 </div>
             </div>
         </div>
@@ -165,7 +136,7 @@
                     <h3 class="card-title text-shadow text-uppercase mb-0">VR Data Analytics</h3>
                     <h4 class="text-shadow text-white">2016</h4>
                     <p class="lead card-text text-shadow text-white w-50 hidden-md-down">Exploration into data visualization and analytics at the Accenture Tech Labs. Unity 3D &amp the HTC Vive</p>
-                    <a href="vranalytics.html" class="btn btn-secondary">Read More</a>
+                    <a href="" class="btn btn-secondary">Read More</a>
                 </div>
             </div>
         </div>
@@ -254,6 +225,8 @@
     renderer.setPixelRatio( window.devicePixelRatio );
     document.body.appendChild( renderer.domElement );
 
+    window.addEventListener( 'resize', onWindowResize, false );
+
                 var geometry = new THREE.BoxGeometry( 50, 50, 50 );
                 
                 for ( var i = 0; i < 5; i ++ ) {
@@ -283,6 +256,12 @@
                     object.rotation.z = Math.random() * 2 * Math.PI;
                     scene.add( object );
                 }
+
+        function onWindowResize() {
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize( window.innerWidth, window.innerHeight );
+        }
 
     var render = function () {
     requestAnimationFrame( render );
