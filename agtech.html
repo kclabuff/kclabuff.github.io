@@ -3,7 +3,7 @@
 
 <head>
 
-        <!-- three.js  -->
+    <!-- three.js  -->
     <script src="vendor/three/three.min.js"></script>
     <script src="vendor/three/tween.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
@@ -11,9 +11,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Start Bootstrap Theme - Customized by Kelly LaBuff">
 
     <title>Kelly LaBuff</title>
+
     <link rel="shortcut icon" type="image/x-icon" href="kLabBasic.png" />
 
     <!-- Bootstrap core CSS -->
@@ -23,6 +24,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
     <link href="css/kclabuff.css" rel="stylesheet">
@@ -37,7 +39,8 @@
     ga('create', 'UA-100634030-1', 'auto');
     ga('send', 'pageview');
 
-    </script>   
+    </script>           
+
 
     <!-- Temporary navbar container fix -->
     <style>
@@ -50,13 +53,20 @@
             width: 100%;
         }
     }
+    /* Temporary fix for img-fluid sizing within the carousel */
+    
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+    }
     </style>
 
 </head>
 
 <body>
 
-       <!-- Three.js Canvas -->
+   <!-- Three.js Canvas -->
     <style>  
         canvas { 
           /* force full-screen of threejs */
@@ -73,6 +83,7 @@
       }
     </style>
 
+
     <div class="tagline-upper text-center text-heading mt-4 hidden-md-down">Kelly LaBuff</div>
     <div class="tagline-lower text-center text-expanded text-uppercase mb-4 hidden-md-down"><br>System Design Engineer / Product Manager</div>
 
@@ -86,10 +97,10 @@
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="index.html">About </a>
+                        <a class="nav-link text-uppercase text-expanded" href="index.html">About</a>
                     </li>
                     <li class="nav-item active px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="blog.html">Work<span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-uppercase text-expanded" href="blog.html">Work <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
@@ -99,107 +110,69 @@
         </div>
     </nav>
 
+   <div class="container">
+
+        <div class="bg-faded p-4 my-4 hidden-lg-up">
+            <!-- Welcome Message -->
+            <div class="text-center mt-4">
+                <h1 class="my-2 hidden-lg-up">Kelly LaBuff</h1>
+                <div class="text-heading text-muted text-lg hidden-lg-up">Engineer / Designer / Product Manager</div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
+
         <div class="bg-faded p-4 my-4">
-            <div class="card card-inverse">
-                <img class="card-img img-fluid w-100" src="img/agtech.JPG" alt="">
-                <div class="card-img-overlay bg-overlay">
-                    <h3 class="card-title text-shadow text-uppercase mb-0">Ag Tech</h3>
-                    <h4 class="text-shadow text-white">2017 - Present</h4>
-                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">System Design, Business &amp Operations Modeling, Simulation Programming, and Process Design</p>
-                    <a href="agtech.html" class="btn btn-secondary">Read More</a>
-                </div>
+            <div class="row">
+
+            <div class="col-lg-12">
+            <h2 class="text-center text-lg text-uppercase my-0"> Current Work </h2>
+            <hr class="divider">
+            <p>My current work at Sensei Ag involves managing cross-functional teams to create more efficient and effective farming technology and operations. 
+            </p>
+
+            <p>I previously worked at Plenty in a similar role, and led the engineering design scope for farm layout, business modeling, and operations modeling. My work included modeling production operations through both excel and Anylogic, a discrete event simulation software.</p>
             </div>
+
+            <div class="col-lg-6">
+            <h2 class="text-center text-lg text-uppercase my-0"> Tools </h2>
+            <hr class="divider">
+            <ul style="list-style-type:square">
+            <li>Project and People Management</li>
+            <li>Anylogic Programming in Java</li>
+            <li>Draw.io</li>
+            <li>Confluence</li>
+            <li>Jira</li>
+            <li>Grit</li>
+            <li>Teamwork</li>
+            </ul>
+            </div>
+
+            <div class="col-lg-12">
+            <h2 class="text-center text-lg text-uppercase my-0"> Outcome </h2>
+            <hr class="divider">
+            <ul style="list-style-type:square">
+            <li>Owned all full-farm facility layout design: led 5 multimillion-dollar farm layout design projects of up to 100k sq ft. from concept to Architectural and Engineering handoff for permits and feedback cycles after deployment</li>
+            <li>Led full-farm operations modeling across all of Plenty: owner of throughput model, labor model, OEE and scale analysis, and process flow modeling with discrete event simulation software and MS Excel </li>
+            <li>Led traceability design project at Sensei Ag: tracking plants from input materials to finished goods through data collection</li>
+
+
+            </div>
+            <div class="col-lg-12">
+            <h2 class="text-center text-lg text-uppercase my-0"> Looking Forward </h2>
+            <hr class="divider">
+            <p>I joined Sensei Ag in a position of expertise, allowing me to become a leader within our team early on and continue to work across both technical and nontechnical teams. I believe that my work here will be formative, and more importantly it exposes me to new ag business models and growing methodologies that I believe reflect the future of more sustainable and accessible food systems. I’m excited for the next phase of my career, the future impact forces that I will set into motion, and the collective impact that I will make on the world with my life and my career.</p>
+            </div>
+            
         </div>
+
     </div>
 
-    <div class="container">
-        <div class="bg-faded p-4 my-4">
-            <div class="card card-inverse">
-                <img class="card-img img-fluid w-100" src="img/cv_splash.png" alt="">
-                <div class="card-img-overlay bg-overlay">
-                    <h3 class="card-title text-shadow text-uppercase mb-0">CareerVillage</h3>
-                    <h4 class="text-shadow text-white">2017</h4>
-                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">Product Managment, Rebranding, and Design</p>
-                    <a href="careervillage.html" class="btn btn-secondary">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="bg-faded p-4 my-4">
-            <div class="card card-inverse">
-                <img class="card-img img-fluid w-100" src="img/ShrinkRay3.png" alt="">
-                <div class="card-img-overlay bg-overlay">
-                    <h3 class="card-title text-shadow text-uppercase mb-0">360 Video Analytics</h3>
-                    <h4 class="text-shadow text-white">2016</h4>
-                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">Accenture Tech Labs - Tech for good project</p>
-                    <a href="360videoanalytics.html" class="btn btn-secondary">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="bg-faded p-4 my-4">
-            <div class="card card-inverse">
-                <img class="card-img img-fluid w-100" src="img/Trail Map 4.png" alt="">
-                <div class="card-img-overlay bg-overlay">
-                    <h3 class="card-title text-shadow text-uppercase mb-0">VR Data Analytics</h3>
-                    <h4 class="text-shadow text-white">2016</h4>
-                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">Exploration into data visualization and analytics at the Accenture Tech Labs. Unity 3D &amp the HTC Vive</p>
-                    <a href="vranalytics.html" class="btn btn-secondary">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-         <div class="bg-faded p-4 my-4">
-            <div class="card card-inverse">
-                <img class="card-img img-fluid w-100" src="img/SemoirFurrowCutters.png" alt="">
-                <div class="card-img-overlay bg-overlay">
-                    <h3 class="card-title text-shadow text-uppercase mb-0">Super Semoir</h3>
-                    <h4 class="text-shadow text-white">2014</h4>
-                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">Stanford GSB - Design for Extreme Affordability
-                    <br>Designed and manufactured a device to enable West African farmers to adopt microdose fertilization</p>
-                    <a href="supersemoir.html" class="btn btn-secondary">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="bg-faded p-4 my-4">
-            <div class="card card-inverse">
-                <img class="card-img img-fluid w-100" src="img/FlugtagPlane.jpg" alt="">
-                <div class="card-img-overlay bg-overlay">
-                    <h3 class="card-title text-shadow text-uppercase mb-0">Redbull Flugtag</h3>
-                    <h4 class="text-shadow text-white">2013</h4>
-                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down">Designed and manufactured a “human powered flying machine” for Red Bull Flugtag in San Francisco</p>
-                    <a href="redbull.html" class="btn btn-secondary">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="bg-faded p-4 my-4">
-            <div class="card card-inverse">
-                <img class="card-img img-fluid w-100" src="img/deskshelf1.jpg" alt="">
-                <div class="card-img-overlay bg-overlay">
-                    <h3 class="card-title text-shadow text-uppercase mb-0">Random Explorations</h3>
-                    <h4 class="text-shadow text-white">2017</h4>
-                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down"> Microcontrollers, LEDs, d3.js, three.js, VR Art</p>
-                    <a href="random.html" class="btn btn-secondary">See More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <!-- /.container -->
 
     <footer class="bg-faded text-center py-5">
+
         <div class="container">
             <p class="m-0">Copyright &copy; kclabuff.github.io 2020</p>
         </div>
@@ -210,6 +183,7 @@
     <script src="vendor/tether/tether.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+   
      <!-- Three.js Script -->
    <script>
     var scene = new THREE.Scene();
@@ -228,7 +202,7 @@
 
                 var geometry = new THREE.BoxGeometry( 50, 50, 50 );
                 
-                               for ( var i = 0; i < 25; i ++ ) {
+                               for ( var i = 0; i < 50; i ++ ) {
                     var object = new THREE.Mesh( geometry, new THREE.MeshBasicMaterial( { color: Math.random() * 0xffffff, transparent: true, opacity: 0.15, wireframe: true} ) );
                     object.position.x = Math.random()* screen.width;
                     object.position.y = Math.random() * 800;
@@ -242,7 +216,7 @@
                     scene.add( object );
                 }
 
-                for ( var j = 0; j < 25; j ++ ) {
+                for ( var j = 0; j < 50; j ++ ) {
                     var object = new THREE.Mesh( geometry, new THREE.MeshBasicMaterial( { color: Math.random() * 0xffffff, transparent: true, opacity: 0.15, wireframe: true} ) );
                     object.position.x = Math.random() * 800 - 400;
                     object.position.y = Math.random() * 800 - 400;
@@ -256,11 +230,11 @@
                     scene.add( object );
                 }
 
-        function onWindowResize() {
+    function onWindowResize() {
                 camera.aspect = window.innerWidth / window.innerHeight;
                 camera.updateProjectionMatrix();
                 renderer.setSize( window.innerWidth, window.innerHeight );
-        }
+    }
 
     var render = function () {
     requestAnimationFrame( render );
@@ -281,6 +255,8 @@
         }
 
     } );
+
+
 
     renderer.render(scene, camera);
     };

@@ -1,29 +1,21 @@
-    /* {
-    "title": "Business Casual",
-    "name": "startbootstrap-business-casual",
-    "version": "4.0.0-alpha",
-    "description": "A casual HTML website theme for businesses built with Bootstrap",
+    {
+    "title": "Kelly LaBuff Portfolio",
+    "name": "klab-portfolio-bootstrap",
+    "version": "2.0-alpha",
+    "description": "A personal portfolio website for Kelly LaBuff",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
+        "product manager",
+        "system design engineer",
+        "kelly labuff",
+        
     ],
-    "homepage": "http://startbootstrap.com/template-overviews/business-casual",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "homepage": "http://kclabuff.github.io/"
+    ,
+    "license": "MIT"
+    ,
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual.git"
+        "url": "https://github.com/kclabuff/kclabuff.github.io"
     },
     "dependencies": {
         "bootstrap": "^4.0.0-alpha.6",
@@ -34,4 +26,4 @@
         "browser-sync": "^2.18.8",
         "gulp": "^3.9.1"
     }
-} /*
+} 
