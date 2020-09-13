@@ -196,7 +196,7 @@
     <footer class="bg-faded text-center py-5">
 
         <div class="container">
-            <p class="m-0">Copyright &copy; kclabuff.github.io 2019</p>
+            <p class="m-0">Copyright &copy; kclabuff.github.io 2020</p>
         </div>
     </footer>
 
@@ -224,7 +224,7 @@
 
                 var geometry = new THREE.BoxGeometry( 50, 50, 50 );
                 
-                                for ( var i = 0; i < 50; i ++ ) {
+                                for ( var i = 0; i < 25; i ++ ) {
                     var object = new THREE.Mesh( geometry, new THREE.MeshBasicMaterial( { color: Math.random() * 0xffffff, transparent: true, opacity: 0.15, wireframe: true} ) );
                     object.position.x = Math.random()* screen.width;
                     object.position.y = Math.random() * 800;
@@ -238,7 +238,7 @@
                     scene.add( object );
                 }
 
-                for ( var j = 0; j < 50; j ++ ) {
+                for ( var j = 0; j < 25; j ++ ) {
                     var object = new THREE.Mesh( geometry, new THREE.MeshBasicMaterial( { color: Math.random() * 0xffffff, transparent: true, opacity: 0.15, wireframe: true} ) );
                     object.position.x = Math.random() * 800 - 400;
                     object.position.y = Math.random() * 800 - 400;
