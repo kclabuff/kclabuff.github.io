@@ -1,4 +1,4 @@
-{
+    /* {
     "title": "Business Casual",
     "name": "startbootstrap-business-casual",
     "version": "4.0.0-alpha",
@@ -34,4 +34,4 @@
         "browser-sync": "^2.18.8",
         "gulp": "^3.9.1"
     }
-}
+} /*
