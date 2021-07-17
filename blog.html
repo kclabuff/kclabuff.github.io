@@ -3,7 +3,7 @@
 
 <head>
 
-        <!-- three.js  -->
+    <!-- three.js  -->
     <script src="vendor/three/three.min.js"></script>
     <script src="vendor/three/tween.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
@@ -11,18 +11,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Start Bootstrap Theme - Customized by Kelly LaBuff">
 
     <title>Kelly LaBuff</title>
+
     <link rel="shortcut icon" type="image/x-icon" href="kLabBasic.png" />
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a964efda99.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
     <link href="css/kclabuff.css" rel="stylesheet">
@@ -37,19 +39,48 @@
     ga('create', 'UA-100634030-1', 'auto');
     ga('send', 'pageview');
 
-    </script>   
+    </script>     
 
     <!-- Temporary navbar container fix -->
     <style>
     .navbar-toggler {
         z-index: 1;
     }
+
     
     @media (max-width: 576px) {
         nav > .container {
             width: 100%;
         }
     }
+    /* Temporary fix for img-fluid sizing within the carousel */
+    
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+    }
+    </style>
+
+</head>
+
+<body>
+
+   <!-- Three.js Canvas -->
+    <style>  
+        canvas { 
+          /* force full-screen of threejs */
+          width: 100%; height: 100%; 
+          
+          /* set position to fixed starting top-left of screen */
+          /* fixed position causes the threejs to be stationary */
+          position: fixed; top: 0px; left: 0px;   
+          /* bring this threejs object behind other things... */
+          z-index: -1; 
+        } 
+      #canvas {
+        background-color: #FEFFFE;
+      }
     </style>
 
 </head>
@@ -91,9 +122,7 @@
                     <li class="nav-item active px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="blog.html">Work<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
-                    </li>
+
                 </ul>
             </div>
         </div>
@@ -179,20 +208,6 @@
                     <h4 class="text-shadow text-white">2013</h4>
                     <p class="lead card-text text-shadow text-white w-50 hidden-md-down">Designed and manufactured a “human powered flying machine” for Red Bull Flugtag in San Francisco</p>
                     <a href="redbull.html" class="btn btn-secondary">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="bg-faded p-4 my-4">
-            <div class="card card-inverse">
-                <img class="card-img img-fluid w-100" src="img/deskshelf1.jpg" alt="">
-                <div class="card-img-overlay bg-overlay">
-                    <h3 class="card-title text-shadow text-uppercase mb-0">Random Explorations</h3>
-                    <h4 class="text-shadow text-white">2017</h4>
-                    <p class="lead card-text text-shadow text-white w-50 hidden-md-down"> Microcontrollers, LEDs, d3.js, three.js, VR Art</p>
-                    <a href="random.html" class="btn btn-secondary">See More</a>
                 </div>
             </div>
         </div>
