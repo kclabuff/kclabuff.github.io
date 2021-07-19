@@ -3,7 +3,7 @@
 
 <head>
 
-        <!-- three.js  -->
+    <!-- three.js  -->
     <script src="vendor/three/three.min.js"></script>
     <script src="vendor/three/tween.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
@@ -11,18 +11,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Start Bootstrap Theme - Customized by Kelly LaBuff">
 
     <title>Kelly LaBuff</title>
+
     <link rel="shortcut icon" type="image/x-icon" href="kLabBasic.png" />
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a964efda99.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
     <link href="css/kclabuff.css" rel="stylesheet">
@@ -44,11 +46,19 @@
     .navbar-toggler {
         z-index: 1;
     }
+
     
     @media (max-width: 576px) {
         nav > .container {
             width: 100%;
         }
+    }
+    /* Temporary fix for img-fluid sizing within the carousel */
+    
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
     }
     </style>
 
@@ -56,7 +66,7 @@
 
 <body>
 
-       <!-- Three.js Canvas -->
+   <!-- Three.js Canvas -->
     <style>  
         canvas { 
           /* force full-screen of threejs */
@@ -73,10 +83,11 @@
       }
     </style>
 
+
     <div class="tagline-upper text-center text-heading mt-4 hidden-md-down">Kelly LaBuff</div>
     <div class="tagline-lower text-center text-expanded text-uppercase mb-4 hidden-md-down"><br>Business + Systems Design Manager</div>
 
-    <!-- Navigation -->
+    <!-- Navigation  -->
     <nav class="navbar navbar-toggleable-md navbar-light navbar-custom bg-transparent py-lg-4">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -85,19 +96,16 @@
             <a class="navbar-brand text-uppercase text-expanded font-weight-bold hidden-lg-up" href="#">Kelly LaBuff</a>
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="blog.html">Work</a>
+                    <li class="nav-item active px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact <span class="sr-only"></span></a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav>  
 
     <div class="container">
 
@@ -106,10 +114,12 @@
             <h2 class="text-center text-lg text-uppercase my-0">Contact <strong>Kelly LaBuff</strong></h2>
             <hr class="divider">
             <div class="text-center">
-                    <h5 class="mb-0">Email:</h5>
-                    <div class="mb-4 customlinks"><a href="mailto:name@example.com">kclabuff@gmail.com</a></div>
-                    <h5 class="mb-0">Location:</h5>
-                    <div class="mb-4">San Francisco // Austin</div>
+                    <br>
+                    <a href="mailto:kclabuff@gmail.com"> <i class="fas fa-envelope-square fa-3x fa-fw"> </i> </a>
+                    <a href="https://www.linkedin.com/in/kellylabuff/"> <i class="fab fa-linkedin fa-3x fa-fw"> </i> </a>
+                    <a href="https://twitter.com/kellylabuff"> <i class="fab fa-twitter-square fa-3x fa-fw"></i> </a>
+                    <a href="https://calendly.com/kclabuff/30min"> <i class="far fa-calendar-alt fa-3x fa-fw"></i></a>
+                    <br>
             </div>
         </div>
 
